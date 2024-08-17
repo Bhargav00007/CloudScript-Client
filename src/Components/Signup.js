@@ -13,7 +13,7 @@ const Signup = () => {
     e.preventDefault();
     const { name, email, password } = credentials;
     const response = await fetch(
-      "https://bhrgvnotesserver.adaptable.app/api/auth/createuser",
+      "https://cloud-backend.adaptable.app/api/auth/createuser",
       {
         method: "POST",
         headers: {
