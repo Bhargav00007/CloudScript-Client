@@ -8,7 +8,7 @@ const Login = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      "https://bhrgvnotesserver.adaptable.app/api/auth/login",
+      "https://cloud-backend.adaptable.app/api/auth/login",
       {
         method: "POST",
         headers: {
