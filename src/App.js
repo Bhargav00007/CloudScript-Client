@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Alert from "./Components/Alert";
 import Signup from './Components/Signup';
 import Login from './Components/Login';
+import Landing from './Components/Landing'
 import './App.css';
 
 import {
@@ -20,10 +21,10 @@ function App() {
       <NoteState>
         <Router>
           <Navbar/>
-          <Alert message=" This Application is under Development" />
-          <div className="container my-3">
+          <div className=" ">
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Landing />} />
+              <Route path="/home" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />

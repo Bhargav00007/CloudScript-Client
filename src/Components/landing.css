@@ -1,0 +1,62 @@
+.main-div{
+    height:400px;
+    background-color: #0099ff;
+  }
+  
+  /* Ensure the container is full width */
+  .container.fil {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  /* Ensure the main-div fills the entire width */
+  .main-div {
+    padding:0;
+    margin:0;   
+    width: 100% !important;
+    height: 400px; /* or any desired height */
+    background-color: #f0f0f0; /* optional background color for visibility */
+  }
+  
+  /* Ensure the svg fills the entire width */
+  svg {
+    width: 100% !important;
+    height: auto; /* maintains aspect ratio */
+  }
+  body {
+    background-color:#0099ff;
+    margin: 0;
+    padding: 0;
+  }
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    background-color: #0099ff;
+    width: 100vw; /* Full viewport width */
+    height: 50vh; /* Adjust height as needed */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 3rem; /* Adjust font size as needed */
+    margin-bottom: 0.5rem; /* Space between h1 and h3 */
+  }
+  
+  h3 {
+    margin-bottom: 1rem; /* Space between h3 and buttons */
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 10px; /* Adjust spacing between buttons */
+  }
+
+  .mt-7{
+    margin-top: 20rem;
+  }
+  
