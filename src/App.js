@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Alert from "./Components/Alert";
 import Signup from './Components/Signup';
 import Login from './Components/Login';
 import Landing from './Components/Landing'

@@ -27,7 +27,7 @@ const Signup = () => {
     if (json.success) {
       // Save the auth token and redirect
       localStorage.setItem("token", json.authtoken);
-      navigate("/"); // Use navigate instead of history.push
+      navigate("/home"); // Use navigate instead of history.push
     } else {
       alert("Invalid credentials");
     }
@@ -39,7 +39,7 @@ const Signup = () => {
 
   return (
     <div
-      class="border border-success p-2 mb-2 "
+      class=" container border border-success p-2 mb-2 "
       style={{ borderRadius: "20px" }}
     >
       <div className="container m-3">
