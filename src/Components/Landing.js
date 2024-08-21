@@ -23,6 +23,8 @@ const Landing = () => {
   <div className="card-body">
     <h5 className="card-title text-center">Keep your notes safe in the cloud</h5>
     <div className="text-center">
+    <Link className="btn btn-dark" to="/about" role="button" style={{ display: "inline-block", marginTop: "10px", color:"white", width:"150px" , borderRadius:"50px"}}>About Us</Link>
+
  <u> <a
     href="https://github.com/Bhargav00007"
     style={{textDecoration:"none", display:"block", marginTop:"40px", color:"black"}}
