@@ -1,7 +1,7 @@
 import NoteContext from "./noteContext";
 import React, { useState } from "react";
 const NoteState = (props) => {
-  const host = "https://cloud-backend.adaptable.app/";
+  const host = "https://cloud-script-server.vercel.app/";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
   // Get all Notes
