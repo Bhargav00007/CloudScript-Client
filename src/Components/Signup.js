@@ -12,13 +12,16 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, password } = credentials;
-    const response = await fetch("https://bhrgvnotesbackend.onrender.com/ ", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ name, email, password }),
-    });
+    const response = await fetch(
+      "https://bhrgvnotesbackend.onrender.com/api/auth/createuser ",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ name, email, password }),
+      }
+    );
     const json = await response.json();
     console.log(json);
     if (json.success) {
