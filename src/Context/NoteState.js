@@ -1,7 +1,7 @@
 import NoteContext from "./noteContext";
 import React, { useState } from "react";
 const NoteState = (props) => {
-  const host = "https://bhrgvnotesbackend.onrender.com ";
+  const host = "https://bhrgvnotesbackend.onrender.com/ ";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
   // Get all Notes
